@@ -19,7 +19,7 @@ public class LandingArea
     public void LocatePlatform(Platform platform)
     {
         if (!CanLocate(platform))
-            throw new PlatformAlreadyLocatedException("Platform already located!");
+            throw new InvalidPlatformExceptionException("Invalid platform dimensions!");
 
         _platform = platform;
     }
@@ -28,7 +28,7 @@ public class LandingArea
     {
         if (_platform != null)
         {
-            return false;
+            throw new PlatformAlreadyLocatedException("Platform already located!");
         }
 
         return platform.PlatformEndingX <= _x && platform.PlatformEndingY <= _y;
