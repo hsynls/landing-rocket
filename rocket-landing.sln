@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rocket-landing", "rocket-landing\rocket-landing.csproj", "{DF3412F3-8F34-4352-A4B6-F76A29E4DD73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rocket-landing.Tests", "rocket-landing.Tests\rocket-landing.Tests.csproj", "{9EB6176B-D2E9-4692-A36E-A6C1ADF68668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rocket-landing.Core", "rocket-landing.Core\rocket-landing.Core.csproj", "{0ED440AA-619C-4C48-8699-2E22BFED5A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3412F3-8F34-4352-A4B6-F76A29E4DD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3412F3-8F34-4352-A4B6-F76A29E4DD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3412F3-8F34-4352-A4B6-F76A29E4DD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3412F3-8F34-4352-A4B6-F76A29E4DD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB6176B-D2E9-4692-A36E-A6C1ADF68668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB6176B-D2E9-4692-A36E-A6C1ADF68668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB6176B-D2E9-4692-A36E-A6C1ADF68668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB6176B-D2E9-4692-A36E-A6C1ADF68668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED440AA-619C-4C48-8699-2E22BFED5A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED440AA-619C-4C48-8699-2E22BFED5A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED440AA-619C-4C48-8699-2E22BFED5A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED440AA-619C-4C48-8699-2E22BFED5A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
